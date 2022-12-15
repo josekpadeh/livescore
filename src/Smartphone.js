@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PhoneContent from './phoneContent';
 
 
 const fixtures = [
@@ -20,8 +21,46 @@ const fixtures = [
 ]
 
 export function SmartPhone() {
-  return (<div className="smartphone">
-    
+  return (
+    <>
+   
+  <div className="smartphone">
+ 
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
+        <a href="https://flowbite.com" class="flex items-center">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Liberia_FA.png" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">LIBERIA NATIONAL TEAM</span>
+        </a>
+        <div class="flex items-center">
+            <a href="tel:5541251234" class="mr-6 text-sm font-medium text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
+            <a href="#" class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+        </div>
+    </div>
+</nav>
+<nav class="bg-gray-50 dark:bg-gray-700">
+    <div class="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
+        <div class="flex items-center">
+            <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
+                <li>
+                    <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Company</a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Team</a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Features</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<PhoneContent />
+
     <div class="w-full max-w-sm p-4 bg-white border rounded-lg shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700">
         <h5 class="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white">
             LiveScore App
@@ -54,6 +93,8 @@ export function SmartPhone() {
         </div>
     </div>
 
-  </div>);
+  </div>
+  </>
+  );
   
 }
