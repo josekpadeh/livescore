@@ -58,10 +58,10 @@ export function SmartPhone() {
         </div>
     </div>
 </nav>
+<div class='flex'>
+ <PhoneContent />
 
-<PhoneContent />
-
-    <div class="w-full max-w-sm p-4 bg-white border rounded-lg shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-full max-w-sm p-4 bg-white border flex-1 shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700 flex-1">
         <h5 class="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white">
             LiveScore App
         </h5>
@@ -93,6 +93,7 @@ export function SmartPhone() {
         </div>
     </div>
 
+  </div>
   </div>
   </>
   );
