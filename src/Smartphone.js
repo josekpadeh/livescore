@@ -17,13 +17,41 @@ const fixtures = [
         id: 3,
         game: "Sandi FC vs Bea Mountain",
         time: "4:00 PM Dec. 23, 2022"
+    },
+    {
+        id: 3,
+        game: "Sandi FC vs Bea Mountain",
+        time: "4:00 PM Dec. 23, 2022"
+    },
+    {
+        id: 3,
+        game: "Sandi FC vs Bea Mountain",
+        time: "4:00 PM Dec. 23, 2022"
+    },
+    {
+        id: 3,
+        game: "Sandi FC vs Bea Mountain",
+        time: "4:00 PM Dec. 23, 2022"
+    },
+    {
+        id: 3,
+        game: "Sandi FC vs Bea Mountain",
+        time: "4:00 PM Dec. 23, 2022"
+    },{
+        id: 3,
+        game: "Sandi FC vs Bea Mountain",
+        time: "4:00 PM Dec. 23, 2022"
     }
 ]
 
 export function SmartPhone() {
   return (
     <>
-   
+   <div class="text-5xl font-extrabold ...">
+  <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+    LiveScore
+  </span>
+</div>
   <div className="smartphone">
  
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
@@ -46,13 +74,13 @@ export function SmartPhone() {
                     <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Company</a>
+                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Result</a>
                 </li>
                 <li>
                     <a href="#" class="text-gray-900 dark:text-white hover:underline">Team</a>
                 </li>
                 <li>
-                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Features</a>
+                    <a href="#" class="text-gray-900 dark:text-white hover:underline">Fixture</a>
                 </li>
             </ul>
         </div>
@@ -65,7 +93,7 @@ export function SmartPhone() {
         <h5 class="mb-3 text-base font-semibold text-gray-900 md:text-xl dark:text-white">
             LiveScore App
         </h5>
-        <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Connect with one of our available wallet providers or create a new one.</p> <hr />
+        <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Today Games</p> <hr />
 
     
  
