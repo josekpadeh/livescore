@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PhoneContent from './phoneContent';
 
 
+
 const fixtures = [
     {
         id: 1,
